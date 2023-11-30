@@ -1,28 +1,22 @@
 // Start coding here
-const add = (a,b) => {
-    return a+b;
+let add = (a,b) => {
+    let sum= a+b // ไม่จำเป็นต้องตั้งตัวแปร
+    return sum;
 }
 
-const subtract = (a,b) => {
+let subtract = (a,b) => {
     return a-b;
 }
 
-const muntiply = (a,b) => {
+let multiply = (a,b) => {
     return a*b;
 }
 
-const divide = (a,b) => {
-    return a/b;
+let divide = (a,b) => {
+    return a/b
 }
 
-let result1 = add(10,5);
-console.log(result1);
-
-let result2 = subtract(10,5);
-console.log(result2);
-
-let result3 = muntiply(10,5);
-console.log(result3);
-
-let result4 = divide(10,5);
-console.log(result4);
+console.log(add(10,5))
+console.log(subtract(10,5))
+console.log(multiply(10,5))
+console.log(divide(10,5))
